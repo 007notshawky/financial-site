@@ -161,14 +161,14 @@ li {
 border-radius: 10px;
 background: none;
 padding: 10px;
-margin: 10px 10px 50px 10px;
+margin: 101px 10px 50px 10px;
 
 }
 .serv1{
   border-radius: 10px;
 background: #051622;
 padding: 10px;
-margin: 10px 10px 20px 25px;
+margin: -80px 10px 20px 1400px;
 transform: scale(1.1);
 
 }
@@ -176,34 +176,44 @@ transform: scale(1.1);
 border-radius: 10px;
 background: #051622;
 padding: 10px;
-margin: 30px 10px 20px 90px;
+margin: 30px 10px 20px 1400px;
 transform: scale(1.1);
 }
 .serv3{
 border-radius: 10px;
 background: #051622;
 padding: 10px;
-margin: 30px 10px 20px 105px;
+margin: 30px 10px 20px 1400px;
 transform: scale(1.1);
 }
 .serv4{
   border-radius: 10px;
   background: #051622;
   padding: 10px;
-  margin: 30px 10px 20px 110px;
+  margin: 30px 10px 20px 1400px;
   transform: scale(1.1);
   }
 .serv5{
   border-radius: 10px;
   background: #051622;
   padding: 10px;
-  margin: 30px 10px 20px 113px;
+  margin: 30px 10px 20px 1400px;
   transform: scale(1.1);
   }
   .serv6{
     border-radius: 10px;
     background: #051622;
     padding: 10px;
-    margin: 30px 10px 20px 118px;
+    margin: 30px 10px 20px 1400px;
     transform: scale(1.1);
     }
+    
+.pragraph{
+    background: none;
+    display: flex; 
+    margin: -600px 200px 10px 850px;
+    text-align: center;
+    line-height: 300%;
+    color: azure;
+    text-align:left;
+}
