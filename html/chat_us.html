@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/chat_us.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="chat-box fixed-positioning" style="padding-bottom: 0px;">
+        <div class="chat-header">
+          <!-- <img src="http://104.248.11.97/images/ypcChat.jpg" alt="YPC Chat Service" id="chatBoxLogo"> -->
+          <span>Leave a message</span>
+          <button>Show</button>
+        </div>
+        <div class="chat-content">
+          <div class="bottom">
+            <div class="colm">
+              <!-- <img src="http://104.248.11.97/images/ypcChatAgent.png" alt="YPC Chat Agent" id="ypcChatAgent"> -->
+            </div>
+            <div class="colm agentData">
+              <p id="agentName" style="margin-bottom: 2px;">Mike</p>
+              <p id="supportAgent" style="margin-bottom: 2px;">Support Agent</p>
+              <p id="theCurrentTime"></p>
+            </div>
+            <div class="colm">
+              <div class="agentRatingAndContact">
+                <!-- <img src="http://104.248.11.97/images/thumbsDown.png" alt="Thumbs Down Rating" id="thumbsDown"> -->
+                <!-- <img src="http://104.248.11.97/images/thumbsUp.png" alt="Thumbs Up Rating" id="thumbsUp"> -->
+                <!-- <img src="http://104.248.11.97/images/email.png" alt="Email Agent" id="emailIcon"> -->
+                <p id="ratingFeedbackMessage">How am I doing?</p>
+            </div>
+            </div>
+        </div>
+        <div class="agentChatMessage">
+            <p class="chat-title">Hi, are you looking for Chat Agents for your Website?</p>
+        </div>
+        <form action="javascript:void(0)" class="chat-form">
+            <div>
+              <label for="name">Your Name <span></span></label>
+              <input type="text" id="name" required>
+            </div>
+            <div>
+              <label for="email">E-mail <span></span></label>
+              <input type="email" id="email" required>
+            </div>
+            <div>
+              <label for="message">Message <span>*</span></label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+            <button type="submit" id="chatNowButton">Chat Now</button>
+          </form>
+        </div>
+      </div>
+      <script src="../js/footer_chat.js"></script>
+    
+</body>
+</html>

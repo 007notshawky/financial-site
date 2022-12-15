@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@keyframes test{
+    from{background-color: rgb(255, 255, 255); left: 200px; top: 0px; right: 200px; bottom: 0px;}
+    to{background-color: #181818; left: 0px; top: 200px; right: 0px; bottom: 200px;}
+}
+    
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;}
+.main-head{
+    background-color:#181818;
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    display: flex;
+
+}
+/* section{
+    padding: 100px 200px;
+} */
+.logo{
+    font-size: 1.8em;
+    font-weight: 900;
+    text-decoration: none;
+    color:#fff;
+    align-items: center;
+    text-align: center;
+    transition: 0.7s;
+    animation-name: test;
+    animation-duration: 3s;
+    border-radius: 5px;
+    animation-iteration-count: infinite;
+}
+.logo:hover{
+    transform: rotate(-20deg);
+    text-shadow: 4px blue;
+}
+.links a{
+    display: inline-block;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 800;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    padding:20px ;
+    transition: 0.7s;
+
+
+}
+nav a:hover{
+    color: blue;
+    transform:scale(1.1);
+}
+.main-section{
+    display: flex;
+    align-items: center ;
+    padding: 100px 200px;
+    background-image: url(pexels-fauxels-3183132.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.titel h2 span{
+    display: inline-block;
+    margin: 10px ;
+    color: #fff;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1.5em; 
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 10px 10px lightblue;
+    
+}
+.social-icons a{
+    color: #181818;
+    text-decoration: none;
+    font-size: 2.2em;
+    align-items: l;
+    padding-left:0px;
+    margin:20px 100px 0px 0;
+    transition: 0.2s;
+}
+.sup-section{
+    display: flex;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(pexels-burst-373883.jpg);
+    text-align: center;
+    min-height: 100vh;
+}
+.sup-section h2{
+    color: blue;
+    width: 100%;
+    /* display: flex; */
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+}
+.social:hover{
+    color:blueviolet;
+    transform: scale(1.1);
+
+}
