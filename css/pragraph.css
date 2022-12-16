@@ -106,6 +106,9 @@ a {
   border-radius: 10px;
   transition: 0.7s ease;
 }
+.social {
+  margin-right: 300px;
+}
 .social a {
   text-decoration: none;
   padding-left: 10px;
@@ -124,7 +127,7 @@ a {
 }
 .nav_bar {
   text-align: center;
-  padding: 150px 20px 20px;
+  padding: 120px 20px 20px;
   background-attachment: fixed;
   background-color: #051622;
 }
@@ -208,12 +211,15 @@ transform: scale(1.1);
     transform: scale(1.1);
     }
     
-.pragraph{
+.pragraph p {
     background: none;
     display: flex; 
-    margin: -600px 200px 10px 850px;
+    /* margin: -600px 200px 10px 850px; */
     text-align: center;
     line-height: 300%;
-    color: azure;
-    text-align:left;
+    color: rgb(255, 255, 255);
+    /* text-align:left; */
+    font-weight: 900;
+    font-size:20px;
+    background-color: #051622;
 }
