@@ -36,6 +36,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
     />
     <link rel="stylesheet" href="../css/all.min.css" />
+    <!-- Goals css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css"
+    />
+    <link rel="stylesheet" href="../css/goals.css" />
 
     <link rel="stylesheet" href="../css/index.master.css" />
     <link rel="stylesheet" href="../css/footer.css" />
@@ -57,11 +63,10 @@
             style="border-radius: 7px"
           />
           <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-          <a href="../html/login.html" target="_blank">انضم الينا</a>
           <a href="../html/login.html" target="_blank">تسجيل الدخول</a>
         </div>
 
-        
+        <!-- <a href="../html/login.html" target="_blank">انضم الينا</a> -->
       </nav>
 
       <div class="social">
@@ -82,13 +87,37 @@
     <section class="nav_bar">
       <ul id="list" style="overflow: hidden">
         <li>
-          <a href="../html/index.master.html"><span>الرئيسية</span></a>
+          <a href=""><span>الرئيسية</span></a>
         </li>
         <li>
           <a href=""><span>عن الشركة</span></a>
         </li>
-        <li>
-          <a href="/html/Services/ser.html"><span>خدماتنا</span></a>
+        <li class="dropdown">
+          <button
+            id="buton"
+            style="
+              padding: 0.5em;
+              background-color: #1ba098;
+              font-size: 1em;
+              font-weight: 600;
+              border-radius: 10px;
+            "
+          >
+            <i class="fa fa-caret-down"></i> خدماتنا
+          </button>
+
+          <div class="dropdown-content">
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+            <a href="#">Link6</a>
+            <a href="#">Link7</a>
+            <a href="#">Link8</a>
+            <a href="#">Link9</a>
+            <a href="#">Link10</a>
+          </div>
         </li>
         <li>
           <a href="client.html"><span>عملاءنا</span></a>
@@ -480,6 +509,40 @@
       </div>
     </div>
     <!-- end service  -->
+    <!-- start Principles -->
+    <section class="goals">
+      <h3 class="goals-h3">الأهـــداف</h3>
+      <p class="section-lead">كشريك نجاح لبناء علاقة قوية طويلة الأمد</p>
+      <div class="services-grid">
+        <div class="service service1">
+          <i class="ti-bar-chart"></i>
+          <h4>النهوض بالإقتصاد</h4>
+          <p>
+            أن نكون خير مستشار لعملائنا لتحقيق طموحاتهم من خلال تنفيذ الأعمال
+            بدقة وكفاءة ومن ثم تحقيق التنمية الاقتصادية
+          </p>
+        </div>
+
+        <div class="service service2">
+          <i class="ti-light-bulb"></i>
+          <h4>بناء الثقة</h4>
+          <p>
+            نؤمن بأن نجاح عملائنا هو القوة الدافعة الحقيقية وراء بناء ثقة قوية
+            وممتدة لتعزيز مكانتنا بمجتمع الأعمال .
+          </p>
+        </div>
+
+        <div class="service service3">
+          <i class="ti-money"></i>
+          <h4>النهوض بالإقتصاد</h4>
+          <p>
+            أن نكون خير مستشار لعملائنا لتحقيق طموحاتهم من خلال تنفيذ الأعمال
+            بدقة وكفاءة ومن ثم تحقيق التنمية الاقتصادية .
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end Principles -->
     <!-- chat-box -->
     <div class="chat-box fixed-positioning" style="padding-bottom: 0px">
       <div class="chat-header">

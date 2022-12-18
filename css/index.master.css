@@ -7,7 +7,11 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+body {
+  background: url(https://dgnqg0yj711w4.cloudfront.net/images/homepage%20services%20bg.png)
+    center top repeat fixed rgb(12, 76, 145);
+  animation: 90s linear 0s infinite normal none running background;
+}
 header {
   background-color: #051622;
   width: 100%;
@@ -44,7 +48,7 @@ a {
 
 .log input:hover {
   color: slategrey;
-  /* transform: scale(1.1); */
+  transform: scale();
   background-color: #ffcc65;
 }
 
@@ -54,7 +58,7 @@ a {
   -moz-transition: 0.5s ease;
   -ms-transition: 0.5s ease;
   -o-transition: 0.5s ease;
-  border-radius: 30%;
+  border-radius: 50%;
   background-color: #051622;
 }
 
@@ -162,12 +166,11 @@ li {
   color: white;
   /* padding: 14px 16px; */
   background-color: inherit;
-  overflow: hidden;
-  /* font-family: inherit; Important for vertical align on mobile phones */
+  font-family: inherit; /* Important for vertical align on mobile phones */
   /* margin: 0; Important for vertical align on mobile phones */
 }
-.dropdown-content  {
-  display: block;
+.dropdown-content {
+  display: none;
   position: absolute;
   background-color: #003b49;
   min-width: 160px;
@@ -189,11 +192,4 @@ li {
 .dropdown:hover .dropdown-content {
   display: block;
   margin-top: 10px;
-  /* display: block; */
-}
-.dropdown button:hover
-{
-  display: block;
-  /* margin-top: 10px; */
-
 }
