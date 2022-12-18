@@ -44,7 +44,7 @@ a {
 
 .log input:hover {
   color: slategrey;
-  transform: scale();
+  /* transform: scale(1.1); */
   background-color: #ffcc65;
 }
 
@@ -54,7 +54,7 @@ a {
   -moz-transition: 0.5s ease;
   -ms-transition: 0.5s ease;
   -o-transition: 0.5s ease;
-  border-radius: 50%;
+  border-radius: 30%;
   background-color: #051622;
 }
 
@@ -162,11 +162,12 @@ li {
   color: white;
   /* padding: 14px 16px; */
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
+  overflow: hidden;
+  /* font-family: inherit; Important for vertical align on mobile phones */
   /* margin: 0; Important for vertical align on mobile phones */
 }
-.dropdown-content {
-  display: none;
+.dropdown-content  {
+  display: block;
   position: absolute;
   background-color: #003b49;
   min-width: 160px;
@@ -188,4 +189,11 @@ li {
 .dropdown:hover .dropdown-content {
   display: block;
   margin-top: 10px;
+  /* display: block; */
+}
+.dropdown button:hover
+{
+  display: block;
+  /* margin-top: 10px; */
+
 }
