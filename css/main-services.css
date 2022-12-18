@@ -517,7 +517,7 @@
 .service-card-info p {
   background-color: #0c4c9188;
   padding: 20px 20px 20px 20px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 /* tile hover */

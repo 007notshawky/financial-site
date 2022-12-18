@@ -40,11 +40,11 @@
   position: relative;
 }
 .card0 {
-  background: url("../media/imges/shawky.jpg") center center no-repeat;
+  background: url("../media/imges/shawky5.png") center center no-repeat;
   background-size: 300px;
 }
 .card0:hover {
-  background: url("../media/imges/shawky.jpg") left center no-repeat;
+  background: url("../media/imges/shawky2.png") left center no-repeat;
   background-size: 600px;
 }
 .card0:hover h2 {
@@ -104,12 +104,10 @@ h2 {
   align-items: center;
   justify-content: space-around;
 }
-.titel_head p{
+.titel_head p {
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
   font-size: 40px;
   color: #1ba098;
-
-
 }

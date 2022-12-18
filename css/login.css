@@ -1,140 +1,143 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .main {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    color: aliceblue;
-    align-items: center;
-    /* background-image: url("../media/imges/WhatsApp\ Image\ 2022-12-12\ at\ 00.21.33.jpg"); */
-    background-repeat: no-repeat;
-    background-color:#9da6ad ;
-    background-size: 250%;
-    background-position: right;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  /* background-image: url("../media/imges/WhatsApp\ Image\ 2022-12-12\ at\ 00.21.33.jpg"); */
+  background: url(https://dgnqg0yj711w4.cloudfront.net/images/homepage%20services%20bg.png)
+    #0c4c91;
+  background-repeat: repeat;
+  background-size: initial;
+  background-position: top center;
+  background-attachment: fixed;
+  animation: background 90s linear infinite;
 }
 
 .container {
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    display: flex;
-    margin: 0 auto;
-    border-radius: 5px 100px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 5px 100px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #square {
-    display: flex;
-    min-width: 300px;
-    min-height: 300px;
-    margin-bottom: 100px;
-    justify-content: center;
-    transform-style: preserve-3d;
-    transition: all 0.3s ease-in;
-    box-shadow: 3px 3px 5px #1BA098;
+  display: flex;
+  min-width: 300px;
+  min-height: 300px;
+  margin-bottom: 100px;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: all 0.3s ease-in;
+  box-shadow: 3px 3px 5px #1ba098;
 }
 
 .front,
 .right,
 .left {
-    width: 100%;
-    height: 100%;
-    padding: 40px;
-    display: flex;
-    border-radius: 20px;
-    position: absolute;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #070121;
-    box-shadow: 3px 3px 5px #012a4a;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  border-radius: 20px;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #070121;
+  box-shadow: 3px 3px 5px #012a4a;
 }
 
 .front {
-    transform: translateZ(50px);
+  transform: translateZ(50px);
 }
 
 .right {
-    transform: rotateY(90deg) translateZ(50px);
+  transform: rotateY(90deg) translateZ(50px);
 }
 
 .left {
-    transform: rotateY(-90deg) translateZ(50px);
+  transform: rotateY(-90deg) translateZ(50px);
 }
 
 .actions button {
-    border: 0;
-    outline: none;
-    font-size: 20px;
-    min-height: 30px;
-    padding: 10px 20px;
-    border-radius: 4px;
-    background-color:#ffcc65;
+  border: 0;
+  outline: none;
+  font-size: 20px;
+  min-height: 30px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #ffcc65;
 }
 
 .container h1 {
-    font-size: 35px;
-    margin-bottom: 15px;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
 
 .container form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .container form input,
 .container form button,
 .container form h5 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .container form input {
-    border: rgb(246, 212, 148) solid 4px;
-    padding: 10px 8px;
-    min-height: 50px;
-    font-size: 20px;
-    border-radius: 4px;
-    box-sizing: border-box;
+  border: rgb(246, 212, 148) solid 4px;
+  padding: 10px 8px;
+  min-height: 50px;
+  font-size: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .container form button {
-    border: 0;
-    padding: 10px 0;
-    outline: none;
-    min-height: 30px;
-    font-size: 20px;
-    border-radius: 4px;
-    background-color: #ffcc65;
+  border: 0;
+  padding: 10px 0;
+  outline: none;
+  min-height: 30px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: #ffcc65;
 }
 /*#ffcc65*/
 
 #frontSide {
-    display: none;
+  display: none;
 }
 
 .container .actions {
-    display: flex;
+  display: flex;
 }
 
 .container .actions button {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 @media (min-width: 600px) {
-    .container {
-        width: 700px;
-        padding: 50px 100px;
-        height: 700px;
-        background-image: linear-gradient(to top, #31076b, #2b095b, #0a5967);
-    }
+  .container {
+    width: 700px;
+    padding: 50px 100px;
+    height: 700px;
+    background-image: linear-gradient(to top, #31076b, #2b095b, #0a5967);
+  }
 }
