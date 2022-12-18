@@ -187,7 +187,7 @@ a {
   padding: 100px 20px 20px;
   background-attachment: fixed;
   background-color: #051622;
-  /* position: fixed; */
+  background-position: left;
 }
 
 .nav_bar a {
@@ -298,8 +298,8 @@ li {
 .container-fluid img
 {
   width: 100%;
-  min-height: 100px;
-  height: 200px;
+  min-height: 200px;
+  height: 300px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -327,7 +327,9 @@ li {
 }
 
 
-
+.container-fluid p{
+  text-align: right;
+}
 
 
 
