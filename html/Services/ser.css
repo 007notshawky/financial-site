@@ -187,6 +187,7 @@ a {
   padding: 100px 20px 20px;
   background-attachment: fixed;
   background-color: #051622;
+  /* position: fixed; */
 }
 
 .nav_bar a {
@@ -282,8 +283,48 @@ li {
 }
 
 
+.container-fluid
+{
+  width: 80%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  letter-spacing: 1.8px;
+  /* text-align: center; */
+  direction: rtl;
 
 
+
+}
+.container-fluid img
+{
+  width: 100%;
+  min-height: 100px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+
+}
+
+.container-fluid p
+{
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+
+.container-fluid h1
+{
+  font-weight: 900;
+  color: #0c4c91;
+}
+.container-fluid .list{
+
+  /* list-style-type: square; */
+  list-style: square;
+}
 
 
 
