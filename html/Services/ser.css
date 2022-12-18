@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: url(https://dgnqg0yj711w4.cloudfront.net/images/homepage%20services%20bg.png)
+    #0c4c91;
+}
+
+h1 {
+  direction: rtl;
+}
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+  direction: rtl;
+}
+.navbar-default {
+  background: url(https://dgnqg0yj711w4.cloudfront.net/images/homepage%20services%20bg.png)
+    #0c4c91;
+}
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #37474f;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+/* #sidebar .nav {
+} */
+
+#sidebar .nav a {
+  background: none;
+  border-bottom: 1px solid #455a64;
+  color: #cfd8dc;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover {
+  background: none;
+  color: #eceff1;
+}
+
+#sidebar .nav a i {
+  margin-right: 16px;
+}
