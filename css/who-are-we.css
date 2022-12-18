@@ -68,11 +68,11 @@
   opacity: 1;
 }
 .card2 {
-  background: url("") center center no-repeat;
+  background: url("../media/imges/mustafa.jpg") center center no-repeat;
   background-size: 300px;
 }
 .card2:hover {
-  background: url("") left center no-repeat;
+  background: url("../media/imges/mustafa.jpg") left center no-repeat;
   background-size: 600px;
 }
 .card2:hover h2 {
