@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
 
-
-
-
 body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
@@ -87,10 +84,6 @@ h1 {
   margin-right: 16px;
 }
 
-
-
-
-
 .home-head {
   background-color: #051622;
   width: 100%;
@@ -137,8 +130,12 @@ a {
   -moz-transition: 0.5s ease;
   -ms-transition: 0.5s ease;
   -o-transition: 0.5s ease;
-  border-radius: 30%;
+  border-radius: 50%;
   background-color: #051622;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .logo img:hover {
@@ -250,7 +247,7 @@ li {
   /* font-family: inherit; Important for vertical align on mobile phones */
   /* margin: 0; Important for vertical align on mobile phones */
 }
-.dropdown-content  {
+.dropdown-content {
   display: block;
   position: absolute;
   background-color: #003b49;
@@ -275,28 +272,20 @@ li {
   margin-top: 10px;
   /* display: block; */
 }
-.dropdown button:hover
-{
+.dropdown button:hover {
   display: block;
   /* margin-top: 10px; */
-
 }
 
-
-.container-fluid
-{
+.container-fluid {
   width: 80%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 25px;
   letter-spacing: 1.8px;
   /* text-align: center; */
   direction: rtl;
-
-
-
 }
-.container-fluid img
-{
+.container-fluid img {
   width: 100%;
   min-height: 200px;
   height: 300px;
@@ -304,35 +293,23 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   /* text-align: center; */
-
 }
 
-.container-fluid p
-{
+.container-fluid p {
   text-align: center;
   font-weight: 600;
   line-height: 1.8;
 }
 
-
-.container-fluid h1
-{
+.container-fluid h1 {
   font-weight: 900;
   color: #0c4c91;
 }
-.container-fluid .list{
-
+.container-fluid .list {
   /* list-style-type: square; */
   list-style: square;
 }
 
-
-.container-fluid p{
+.container-fluid p {
   text-align: right;
 }
-
-
-
-
-
-
